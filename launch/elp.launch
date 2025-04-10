@@ -8,5 +8,5 @@
   </node>
   
   <!-- Запустить визуализацию -->
-  <!-- <node name="rqt_image_view" pkg="rqt_image_view" type="rqt_image_view" args="/usb_cam/image_raw" /> -->
+  <node name="rqt_image_view" pkg="rqt_image_view" type="rqt_image_view" args="/usb_cam/image_raw" />
 </launch>
