@@ -11,7 +11,7 @@ ros::Publisher motion_pub;
 
 cv::Mat prev_gray;
 bool first_frame = true;
-const int MOTION_THRESHOLD = 5000;
+const int MOTION_THRESHOLD = 2500;
 
 void imageCallback(const sensor_msgs::ImageConstPtr& msg) {
     try {
