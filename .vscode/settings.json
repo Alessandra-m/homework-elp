@@ -1,3 +1,17 @@
 {
-    "C_Cpp.default.compilerPath": "/usr/bin/g++"
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+    "python.autoComplete.extraPaths": [
+        "/home/alessandra/mag_ws/devel/lib/python3/dist-packages",
+        "/home/alessandra/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/alessandra/mag_ws/devel/lib/python3/dist-packages",
+        "/home/alessandra/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "files.associations": {
+        "optional": "cpp",
+        "variant": "cpp"
+    }
 }
